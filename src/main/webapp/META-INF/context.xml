@@ -1,0 +1,24 @@
+<context>
+
+<Resource name="jdbc/myoracleprueba" auth="Container"
+              type="javax.sql.DataSource" driverClassName="oracle.jdbc.OracleDriver"
+              url="jdbc:oracle:thin:@54.154.192.80:1521:xe"
+              username="open4job" password="open4job" maxTotal="20" maxIdle="10"
+              maxWaitMillis="-1"/>
+              
+                
+</context>
+
+  <!--  estos eran mis datos de conexion que los tenia en ServletPrueba.java
+  
+  	String driver = "oracle.jdbc.driver.OracleDriver";
+			String host = "54.154.192.80";
+			String puerto = "1521";
+			String sid = "xe";
+			String user = "open4job";
+			String password = "open4job";
+			String url = "jdbc:oracle:thin:" + user + "/" + password + "@"
+					+ host + ":" + puerto + ":" + sid;*/  
+					
+		-->        
+
